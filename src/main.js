@@ -4,28 +4,28 @@ const reviews = [
     {
         name: "Ayla Bostock",
         job: "UX Designer",
-        avatar: "img/avatar1.jpg",
+        avatar: "img/avatar1.webp",
         review:
             "In all aspects of work, Project is not satisfied unless achieving the highest standards. Works relentlessly to improve skills and knowledge, and the quality of work output."
     },
     {
         name: "Ashlyn Davidson",
         job: "Full-Stack Developer",
-        avatar: "img/avatar2.jpg",
+        avatar: "img/avatar2.webp",
         review:
             "Considers problems as a challenge and enjoys finding creative yet appropriate solutions. Project is able to work out their own solutions, but also works well with a group to solve problems."
     },
     {
         name: "Anais Herring",
         job: "Web Analyst",
-        avatar: "img/avatar3.jpg",
+        avatar: "img/avatar3.webp",
         review:
             "Project pays great attention to detail. They always presented work properly checked and completely free of error."
     },
     {
         name: "Reid Ellwood",
         job: "Technical Consultant",
-        avatar: "img/avatar4.jpg",
+        avatar: "img/avatar4.webp",
         review:
             "Meticulous in keeping the workplace clean and tidy. Project makes a habit of keeping own area clean and hazard-free and also assists and encourages others to do the same."
     }
