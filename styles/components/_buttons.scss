@@ -1,0 +1,11 @@
+button{
+    cursor: pointer;
+    background: $blue;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: $border-radius;
+    -webkit-border-radius: $border-radius;
+    -moz-border-radius: $border-radius;
+    -ms-border-radius: $border-radius;
+    -o-border-radius: $border-radius;
+}

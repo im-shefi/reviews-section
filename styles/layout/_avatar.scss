@@ -1,0 +1,52 @@
+$size: 150px;
+
+.avatar{
+    position: relative;
+
+    img{
+        position: relative;
+        z-index: 2;
+        width: $size;
+        height: $size;
+        object-fit: cover;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    &::before{
+        content: "\0275E";
+        font-size: 2.5em;
+        color: $white;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: $blue;
+        position: absolute;
+        z-index: 3;
+        top: 0.5rem;
+        left: -0.5rem;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    &::after{
+        content: "";
+        width: $size;
+        height: $size;
+        background: $blue;
+        position: absolute;
+        z-index: 1;
+        bottom: 10px;
+        left: 10px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+}
